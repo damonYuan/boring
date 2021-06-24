@@ -1,0 +1,31 @@
+{
+  "name": "tboring",
+  "version": "1.0.0",
+  "description": "Bore a tunnel through WebSocket, Socks5 or HTTP Connection.",
+  "scripts": {
+    "prestart": "npx prettier --write '**/*.js'"
+  },
+  "keywords": [
+    "tunnel",
+    "websocket"
+  ],
+  "author": {
+    "name": "Damon Yuan",
+    "email": "damon.yuan.dev@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:damonYuan/boring.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "optimist": "^0.6.1",
+    "ws": "^7.5.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.1"
+  },
+  "bin": {
+    "boring": "./bin/cli.js"
+  }
+}
